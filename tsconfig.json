@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "common/*": ["src/common/*"],
+      "test/*": ["src/test/*"],
+      "src/*": ["src/*"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-strict-plugin",
+        "paths": ["src"],
+        "exclude": ["app2", "app"]
+      }
+    ]
+  },
+  "include": ["src"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
