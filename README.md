@@ -1,35 +1,21 @@
-# React-Redux-Typescript-Jest App Boilerplate
+# Getting Started with Create React App
 
-## Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
-This project is a React boilerplate with a customized setup that includes Webpack for bundling, Jest for testing, and support for Redux with TypeScript. It also integrates essential development tools such as ESLint, React Testing Library, and Typescript for a modern, scalable front-end development experience.
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-- **React 18**: Latest version for building UI components.
-- **Redux Toolkit**: Simplified state management with Redux.
-- **Webpack 5**: Module bundler and build system.
-- **TypeScript**: Type-safe development.
-- **Jest**: Unit testing framework.
-- **ESLint**: Code linting for JavaScript and TypeScript.
-- **React Testing Library**: For writing and running unit tests.
-- **Immutability with Immutable.js**: Ensures state immutability in Redux.
-- **Esbuild Loader**: For faster builds.
+### `yarn dev`
 
-## Getting Started
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Prerequisites
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- Node.js >= 14
-- npm or Yarn
+### `yarn test`
 
-### Installation
+Launches the test runner in the interactive watch mode.\
 
-Clone the repository and install the dependencies:
-
-```bash
-git clone <repository-url>
-cd alula-app
-yarn install
-
-```
+### `yarn build`
