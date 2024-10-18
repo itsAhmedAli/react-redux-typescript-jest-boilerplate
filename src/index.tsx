@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
-import { store } from "./app/store";
+import { store } from "./common/store";
 import App from "./App";
 import "./common/globalConfig";
 import "./index.css";
