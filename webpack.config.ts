@@ -1,5 +1,5 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const path = require("path");
+import HtmlWebpackPlugin from "html-webpack-plugin";
+import path from "path";
 
 module.exports = {
   mode: "development",
@@ -27,7 +27,7 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: ["style-loader", "css-loader", "postcss-loader"],
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
@@ -53,37 +53,3 @@ module.exports = {
     },
   },
 };
-
-// module.exports = {
-//   entry: "/src/index.js", // main js
-//   output: {
-//     path: path.resolve(__dirname, "dist"), // output folder
-//     publicPath: "/",
-//   },
-//   module: {
-//     rules: [
-//       {
-//         test: /\.?js$/,
-//         exclude: /node_modules/,
-//         use: {
-//           loader: "babel-loader",
-//           options: {
-//             presets: ["@babel/preset-env", "@babel/preset-react"],
-//           },
-//         },
-//       },
-//       {
-//         test: /\.css$/,
-//         use: [
-//           "style-loader",
-//           "css-loader", // for styles
-//         ],
-//       },
-//     ],
-//   },
-//   plugins: [
-//     new HtmlWebpackPlugin({
-//       template: "./src/index.html", // base html
-//     }),
-//   ],
-// };
