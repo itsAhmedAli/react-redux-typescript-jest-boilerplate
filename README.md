@@ -7,9 +7,10 @@ This project is a React boilerplate with a customized setup that includes Webpac
 ## Features
 
 - **React 18**: Latest version for building UI components.
-- **Redux Toolkit**: Simplified state management with Redux.
+- **Redux**: Simplified state management with Redux.
 - **Webpack 5**: Module bundler and build system.
 - **TypeScript**: Type-safe development.
+- **Tailwind Css**: Added tailwind css for UI.
 - **Jest**: Unit testing framework.
 - **ESLint**: Code linting for JavaScript and TypeScript.
 - **React Testing Library**: For writing and running unit tests.
@@ -25,11 +26,4 @@ This project is a React boilerplate with a customized setup that includes Webpac
 
 ### Installation
 
-Clone the repository and install the dependencies:
-
-```bash
-git clone <repository-url>
-cd alula-app
-yarn install
-
-```
+Clone the repository and install the dependencies
